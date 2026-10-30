@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cv-final-green-scene"
+version = "1.0.0"
+description = "CO3057 BTL3: real-scene geometry and vegetation analysis"
+requires-python = ">=3.11,<3.14"
+dependencies = ["numpy>=2,<3", "opencv-python-headless>=4.10,<6", "Pillow>=11,<13"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+demo = ["streamlit>=1.40,<2"]
+report = ["reportlab>=4,<6", "pymupdf>=1.24,<3"]
+
+[project.scripts]
+cv-scene = "cv_final.runner:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

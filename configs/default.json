@@ -1,0 +1,9 @@
+{
+  "preprocess": {"max_side": 960},
+  "geometry": {"method": "orb", "max_features": 3000, "ratio_test": 0.75, "ransac_threshold": 3.0, "min_inliers": 8, "max_canvas_pixels": 12000000, "edge_threshold": 7, "fast_threshold": 7},
+  "segmentation": {"method": "hsv", "h_min": 25, "h_max": 95, "s_min": 35, "v_min": 25, "min_component_area": 0, "morphology_radius": 0},
+  "alternatives": {
+    "hsv": {"method": "hsv", "h_min": 25, "h_max": 95, "s_min": 35, "v_min": 25},
+    "exg": {"method": "exg", "exg_min": 0.05}
+  }
+}

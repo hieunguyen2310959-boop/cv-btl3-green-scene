@@ -1,0 +1,16 @@
+.venv/
+.venv-*/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.cache/
+.env
+runtime/
+verification/
+outputs/
+upstream/
+data/raw/
+data/downloads/
+data/camvid/
+docs/sources/

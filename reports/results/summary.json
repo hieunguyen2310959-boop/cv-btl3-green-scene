@@ -1,0 +1,157 @@
+{
+  "generated_at_utc": "2026-10-30T00:25:25.996955+00:00",
+  "environment": {
+    "python": "3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "opencv": "5.0.0",
+    "numpy": "2.5.4",
+    "opencv_threads": 1,
+    "seed": 2310959
+  },
+  "dataset": {
+    "frames": 40,
+    "dev_frames": 20,
+    "test_frames": 20,
+    "dev_sequences": [
+      "0006R0",
+      "0016E5"
+    ],
+    "test_sequences": [
+      "0001TP",
+      "Seq05VD"
+    ],
+    "positive_class": "Tree=5",
+    "ignored_class": "Unlabelled=11"
+  },
+  "config_sha256": "909874a620fb98e77f8d80391aba0ec3509c8d355877ad3d1d094bd0e822f0eb",
+  "dev_best": {
+    "hsv": {
+      "parameters": {
+        "method": "hsv",
+        "h_min": 20,
+        "h_max": 85,
+        "s_min": 20,
+        "v_min": 20
+      },
+      "n": 20,
+      "macro_iou": 0.16661170127120367,
+      "macro_f1": 0.2746200030365086,
+      "macro_precision": 0.42867348523854965,
+      "macro_recall": 0.24493106754323116,
+      "micro_iou": 0.18914089981555954,
+      "mean_absolute_ratio_error": 0.07940895273146323,
+      "tp": 98344,
+      "fp": 124544,
+      "fn": 297063,
+      "tn": 2814948
+    },
+    "exg": {
+      "parameters": {
+        "method": "exg",
+        "exg_min": 0.02
+      },
+      "n": 20,
+      "macro_iou": 0.1562450365528615,
+      "macro_f1": 0.2584322260087798,
+      "macro_precision": 0.29159084275155167,
+      "macro_recall": 0.32274766995052784,
+      "micro_iou": 0.17063381548527226,
+      "mean_absolute_ratio_error": 0.10193412601490433,
+      "tp": 128053,
+      "fp": 355048,
+      "fn": 267354,
+      "tn": 2584444
+    }
+  },
+  "selected_method": "hsv",
+  "segmentation": {
+    "hsv": {
+      "n": 20,
+      "macro_iou": 0.1089237612001902,
+      "macro_f1": 0.18956902809198786,
+      "macro_precision": 0.31061762840639423,
+      "macro_recall": 0.21796598558357916,
+      "micro_iou": 0.12078837032926672,
+      "mean_absolute_ratio_error": 0.09585181576815525,
+      "tp": 75969,
+      "fp": 156093,
+      "fn": 396881,
+      "tn": 2621940
+    },
+    "exg": {
+      "n": 20,
+      "macro_iou": 0.1546786699147537,
+      "macro_f1": 0.2581400043905523,
+      "macro_precision": 0.2097520153015786,
+      "macro_recall": 0.49639834361583846,
+      "micro_iou": 0.17701551018301542,
+      "mean_absolute_ratio_error": 0.22900481306209555,
+      "tp": 246940,
+      "fp": 922169,
+      "fn": 225910,
+      "tn": 1855864
+    }
+  },
+  "geometry_controlled_crops": {
+    "orb": {
+      "attempted": 20,
+      "succeeded": 20,
+      "success_rate": 1.0,
+      "mean_corner_error_pixels": 0.6985615740255442,
+      "mean_geometry_seconds": 0.4433973100021831,
+      "conditional_segmentation": {
+        "n": 20,
+        "macro_iou": 0.1078657183880414,
+        "macro_f1": 0.18788212566930915,
+        "macro_precision": 0.3117643922464134,
+        "macro_recall": 0.21544479789009455,
+        "micro_iou": 0.11917726027221448,
+        "mean_absolute_ratio_error": 0.09720807873264678,
+        "tp": 74287,
+        "fp": 150887,
+        "fn": 398158,
+        "tn": 2622612
+      }
+    },
+    "sift": {
+      "attempted": 20,
+      "succeeded": 20,
+      "success_rate": 1.0,
+      "mean_corner_error_pixels": 0.030096021503612364,
+      "mean_geometry_seconds": 0.2066281449981034,
+      "conditional_segmentation": {
+        "n": 20,
+        "macro_iou": 0.10857492643515657,
+        "macro_f1": 0.18903303134151486,
+        "macro_precision": 0.3101019252498752,
+        "macro_recall": 0.21754471715468077,
+        "micro_iou": 0.12024135742878636,
+        "mean_absolute_ratio_error": 0.09597289582125479,
+        "tp": 75605,
+        "fp": 155927,
+        "fn": 397245,
+        "tn": 2622106
+      }
+    }
+  },
+  "negative_controls": [
+    {
+      "case": "two_textureless_frames",
+      "method": "orb",
+      "status": "failed",
+      "reason": "insufficient features"
+    },
+    {
+      "case": "two_textureless_frames",
+      "method": "sift",
+      "status": "failed",
+      "reason": "insufficient features"
+    }
+  ],
+  "limitations": [
+    "Only two held-out video sequences; frames are correlated, not 20 independent environments.",
+    "Panorama tests use overlapping crops from the same real frame, not separate camera views.",
+    "Tree class proxy, not all vegetation; no geographical area estimate.",
+    "No trained semantic model. Threshold color baselines can confuse green objects and miss shaded/yellow trees."
+  ]
+}

@@ -1,0 +1,21 @@
+name: BTL3 verification
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  tests:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: astral-sh/setup-uv@v6
+      - name: Install locked dependencies
+        run: |
+          uv venv --python 3.13 .venv
+          uv pip install --python .venv/Scripts/python.exe -r requirements-btl3.lock
+          uv pip install --python .venv/Scripts/python.exe --no-deps -e .
+      - name: Unit and demo smoke tests (no dataset network needed)
+        run: .venv/Scripts/python.exe -m pytest tests -q

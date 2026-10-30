@@ -1,0 +1,1522 @@
+[
+  {
+    "scene_id": "0001TP_008550",
+    "method": "orb",
+    "status": "success",
+    "reason": null,
+    "corner_error_pixels": 0.3757780116170397,
+    "evaluation": {
+      "tp": 3230,
+      "fp": 7901,
+      "fn": 14180,
+      "tn": 137617,
+      "iou": 0.12761250049385642,
+      "precision": 0.290180576767586,
+      "recall": 0.1855255600229753,
+      "f1": 0.22634105322168108,
+      "valid_pixels": 162928,
+      "scope": "valid non-ignored pixels; Tree class only"
+    },
+    "pair_metrics": [
+      {
+        "source_index": 1,
+        "target_index": 0,
+        "match_count": 1673,
+        "inlier_count": 1624,
+        "inlier_ratio": 0.9707112970711297,
+        "inlier_rmse": 0.7899702683142186
+      },
+      {
+        "source_index": 2,
+        "target_index": 1,
+        "match_count": 1734,
+        "inlier_count": 1689,
+        "inlier_ratio": 0.9740484429065744,
+        "inlier_rmse": 0.8373771802082355
+      }
+    ],
+    "geometry_seconds": 0.3513311000133399
+  },
+  {
+    "scene_id": "0001TP_008550",
+    "method": "sift",
+    "status": "success",
+    "reason": null,
+    "corner_error_pixels": 0.0771396097411226,
+    "evaluation": {
+      "tp": 3254,
+      "fp": 7979,
+      "fn": 14156,
+      "tn": 137539,
+      "iou": 0.1281657410689669,
+      "precision": 0.28968218641502713,
+      "recall": 0.18690407811602527,
+      "f1": 0.22721083685368154,
+      "valid_pixels": 162928,
+      "scope": "valid non-ignored pixels; Tree class only"
+    },
+    "pair_metrics": [
+      {
+        "source_index": 1,
+        "target_index": 0,
+        "match_count": 251,
+        "inlier_count": 245,
+        "inlier_ratio": 0.9760956175298805,
+        "inlier_rmse": 0.08096215248333367
+      },
+      {
+        "source_index": 2,
+        "target_index": 1,
+        "match_count": 208,
+        "inlier_count": 208,
+        "inlier_ratio": 1.0,
+        "inlier_rmse": 0.025820719369804873
+      }
+    ],
+    "geometry_seconds": 0.07572069999878295
+  },
+  {
+    "scene_id": "0001TP_008760",
+    "method": "orb",
+    "status": "success",
+    "reason": null,
+    "corner_error_pixels": 0.28471804743014756,
+    "evaluation": {
+      "tp": 3969,
+      "fp": 4778,
+      "fn": 37058,
+      "tn": 115144,
+      "iou": 0.08664992904704727,
+      "precision": 0.4537555733394307,
+      "recall": 0.09674117044872889,
+      "f1": 0.15948085345762847,
+      "valid_pixels": 160949,
+      "scope": "valid non-ignored pixels; Tree class only"
+    },
+    "pair_metrics": [
+      {
+        "source_index": 1,
+        "target_index": 0,
+        "match_count": 982,
+        "inlier_count": 959,
+        "inlier_ratio": 0.9765784114052953,
+        "inlier_rmse": 0.8004110324407844
+      },
+      {
+        "source_index": 2,
+        "target_index": 1,
+        "match_count": 1795,
+        "inlier_count": 1746,
+        "inlier_ratio": 0.9727019498607242,
+        "inlier_rmse": 0.8379073653000433
+      }
+    ],
+    "geometry_seconds": 0.4438926000148058
+  },
+  {
+    "scene_id": "0001TP_008760",
+    "method": "sift",
+    "status": "success",
+    "reason": null,
+    "corner_error_pixels": 0.04080837791547593,
+    "evaluation": {
+      "tp": 3980,
+      "fp": 4814,
+      "fn": 37047,
+      "tn": 115108,
+      "iou": 0.08682184071028119,
+      "precision": 0.4525813054355242,
+      "recall": 0.09700928656738246,
+      "f1": 0.1597719837016519,
+      "valid_pixels": 160949,
+      "scope": "valid non-ignored pixels; Tree class only"
+    },
+    "pair_metrics": [
+      {
+        "source_index": 1,
+        "target_index": 0,
+        "match_count": 196,
+        "inlier_count": 193,
+        "inlier_ratio": 0.9846938775510204,
+        "inlier_rmse": 0.2061209135852546
+      },
+      {
+        "source_index": 2,
+        "target_index": 1,
+        "match_count": 256,
+        "inlier_count": 256,
+        "inlier_ratio": 1.0,
+        "inlier_rmse": 0.0019717717149155523
+      }
+    ],
+    "geometry_seconds": 0.17607799998950213
+  },
+  {
+    "scene_id": "0001TP_008970",
+    "method": "orb",
+    "status": "success",
+    "reason": null,
+    "corner_error_pixels": 0.5490699149562787,
+    "evaluation": {
+      "tp": 5106,
+      "fp": 4640,
+      "fn": 44917,
+      "tn": 108680,
+      "iou": 0.09340870424235771,
+      "precision": 0.5239072439975374,
+      "recall": 0.10207304639865662,
+      "f1": 0.17085780253977814,
+      "valid_pixels": 163343,
+      "scope": "valid non-ignored pixels; Tree class only"
+    },
+    "pair_metrics": [
+      {
+        "source_index": 1,
+        "target_index": 0,
+        "match_count": 816,
+        "inlier_count": 794,
+        "inlier_ratio": 0.9730392156862745,
+        "inlier_rmse": 0.852484257983452
+      },
+      {
+        "source_index": 2,
+        "target_index": 1,
+        "match_count": 1618,
+        "inlier_count": 1586,
+        "inlier_ratio": 0.9802224969097652,
+        "inlier_rmse": 0.7867612940551939
+      }
+    ],
+    "geometry_seconds": 0.4359012999921106
+  },
+  {
+    "scene_id": "0001TP_008970",
+    "method": "sift",
+    "status": "success",
+    "reason": null,
+    "corner_error_pixels": 0.05123780469667388,
+    "evaluation": {
+      "tp": 5632,
+      "fp": 4666,
+      "fn": 44478,
+      "tn": 108773,
+      "iou": 0.10281875273842558,
+      "precision": 0.5469023111283744,
+      "recall": 0.11239273598084215,
+      "f1": 0.18646536882532114,
+      "valid_pixels": 163549,
+      "scope": "valid non-ignored pixels; Tree class only"
+    },
+    "pair_metrics": [
+      {
+        "source_index": 1,
+        "target_index": 0,
+        "match_count": 135,
+        "inlier_count": 133,
+        "inlier_ratio": 0.9851851851851852,
+        "inlier_rmse": 0.1619631985530135
+      },
+      {
+        "source_index": 2,
+        "target_index": 1,
+        "match_count": 295,
+        "inlier_count": 295,
+        "inlier_ratio": 1.0,
+        "inlier_rmse": 0.05529410697773878
+      }
+    ],
+    "geometry_seconds": 0.165867600007914
+  },
+  {
+    "scene_id": "0001TP_009150",
+    "method": "orb",
+    "status": "success",
+    "reason": null,
+    "corner_error_pixels": 0.3460901551221234,
+    "evaluation": {
+      "tp": 6570,
+      "fp": 4142,
+      "fn": 33078,
+      "tn": 118232,
+      "iou": 0.1500342543959808,
+      "precision": 0.6133308439133682,
+      "recall": 0.16570823244552058,
+      "f1": 0.26092136616362194,
+      "valid_pixels": 162022,
+      "scope": "valid non-ignored pixels; Tree class only"
+    },
+    "pair_metrics": [
+      {
+        "source_index": 1,
+        "target_index": 0,
+        "match_count": 933,
+        "inlier_count": 905,
+        "inlier_ratio": 0.969989281886388,
+        "inlier_rmse": 0.8434327423119303
+      },
+      {
+        "source_index": 2,
+        "target_index": 1,
+        "match_count": 1550,
+        "inlier_count": 1520,
+        "inlier_ratio": 0.9806451612903225,
+        "inlier_rmse": 0.7486529456465058
+      }
+    ],
+    "geometry_seconds": 0.4131904999958351
+  },
+  {
+    "scene_id": "0001TP_009150",
+    "method": "sift",
+    "status": "success",
+    "reason": null,
+    "corner_error_pixels": 0.05667860086117804,
+    "evaluation": {
+      "tp": 6732,
+      "fp": 4202,
+      "fn": 32916,
+      "tn": 118172,
+      "iou": 0.15352337514253137,
+      "precision": 0.6156941649899397,
+      "recall": 0.16979418886198547,
+      "f1": 0.26618164564469576,
+      "valid_pixels": 162022,
+      "scope": "valid non-ignored pixels; Tree class only"
+    },
+    "pair_metrics": [
+      {
+        "source_index": 1,
+        "target_index": 0,
+        "match_count": 120,
+        "inlier_count": 120,
+        "inlier_ratio": 1.0,
+        "inlier_rmse": 0.2553024960397211
+      },
+      {
+        "source_index": 2,
+        "target_index": 1,
+        "match_count": 218,
+        "inlier_count": 216,
+        "inlier_ratio": 0.9908256880733946,
+        "inlier_rmse": 0.05868475893164095
+      }
+    ],
+    "geometry_seconds": 0.16586619999725372
+  },
+  {
+    "scene_id": "0001TP_009360",
+    "method": "orb",
+    "status": "success",
+    "reason": null,
+    "corner_error_pixels": 0.1473609019384172,
+    "evaluation": {
+      "tp": 7574,
+      "fp": 4284,
+      "fn": 36584,
+      "tn": 111687,
+      "iou": 0.15635192601461542,
+      "precision": 0.6387249114521841,
+      "recall": 0.17152044929571086,
+      "f1": 0.2704227363610397,
+      "valid_pixels": 160129,
+      "scope": "valid non-ignored pixels; Tree class only"
+    },
+    "pair_metrics": [
+      {
+        "source_index": 1,
+        "target_index": 0,
+        "match_count": 1091,
+        "inlier_count": 1062,
+        "inlier_ratio": 0.9734188817598534,
+        "inlier_rmse": 0.8311861115296204
+      },
+      {
+        "source_index": 2,
+        "target_index": 1,
+        "match_count": 1405,
+        "inlier_count": 1371,
+        "inlier_ratio": 0.9758007117437723,
+        "inlier_rmse": 0.7363069268057657
+      }
+    ],
+    "geometry_seconds": 0.4149284000159241
+  },
+  {
+    "scene_id": "0001TP_009360",
+    "method": "sift",
+    "status": "success",
+    "reason": null,
+    "corner_error_pixels": 0.06211622432185523,
+    "evaluation": {
+      "tp": 7618,
+      "fp": 4289,
+      "fn": 36540,
+      "tn": 111682,
+      "iou": 0.1572439985964043,
+      "precision": 0.6397917191567986,
+      "recall": 0.17251687123511028,
+      "f1": 0.2717559975028984,
+      "valid_pixels": 160129,
+      "scope": "valid non-ignored pixels; Tree class only"
+    },
+    "pair_metrics": [
+      {
+        "source_index": 1,
+        "target_index": 0,
+        "match_count": 139,
+        "inlier_count": 132,
+        "inlier_ratio": 0.9496402877697842,
+        "inlier_rmse": 0.07230676958650958
+      },
+      {
+        "source_index": 2,
+        "target_index": 1,
+        "match_count": 193,
+        "inlier_count": 190,
+        "inlier_ratio": 0.9844559585492227,
+        "inlier_rmse": 0.1584241492707601
+      }
+    ],
+    "geometry_seconds": 0.15969390000100248
+  },
+  {
+    "scene_id": "0001TP_009570",
+    "method": "orb",
+    "status": "success",
+    "reason": null,
+    "corner_error_pixels": 0.7165163640322677,
+    "evaluation": {
+      "tp": 7244,
+      "fp": 5828,
+      "fn": 39622,
+      "tn": 107246,
+      "iou": 0.13747295707291152,
+      "precision": 0.5541615667074663,
+      "recall": 0.1545683437886741,
+      "f1": 0.24171644032166573,
+      "valid_pixels": 159940,
+      "scope": "valid non-ignored pixels; Tree class only"
+    },
+    "pair_metrics": [
+      {
+        "source_index": 1,
+        "target_index": 0,
+        "match_count": 1041,
+        "inlier_count": 1015,
+        "inlier_ratio": 0.9750240153698367,
+        "inlier_rmse": 0.8381404115682685
+      },
+      {
+        "source_index": 2,
+        "target_index": 1,
+        "match_count": 1330,
+        "inlier_count": 1303,
+        "inlier_ratio": 0.9796992481203007,
+        "inlier_rmse": 0.783621400018077
+      }
+    ],
+    "geometry_seconds": 0.4095744000223931
+  },
+  {
+    "scene_id": "0001TP_009570",
+    "method": "sift",
+    "status": "success",
+    "reason": null,
+    "corner_error_pixels": 0.09339695851704481,
+    "evaluation": {
+      "tp": 7300,
+      "fp": 5935,
+      "fn": 39875,
+      "tn": 107187,
+      "iou": 0.13745057427979665,
+      "precision": 0.5515678126180582,
+      "recall": 0.15474297827239003,
+      "f1": 0.24168184075484192,
+      "valid_pixels": 160297,
+      "scope": "valid non-ignored pixels; Tree class only"
+    },
+    "pair_metrics": [
+      {
+        "source_index": 1,
+        "target_index": 0,
+        "match_count": 147,
+        "inlier_count": 144,
+        "inlier_ratio": 0.9795918367346939,
+        "inlier_rmse": 0.18426361506419758
+      },
+      {
+        "source_index": 2,
+        "target_index": 1,
+        "match_count": 189,
+        "inlier_count": 189,
+        "inlier_ratio": 1.0,
+        "inlier_rmse": 0.015325555621708708
+      }
+    ],
+    "geometry_seconds": 0.16172749997349456
+  },
+  {
+    "scene_id": "0001TP_009780",
+    "method": "orb",
+    "status": "success",
+    "reason": null,
+    "corner_error_pixels": 0.18762503431780767,
+    "evaluation": {
+      "tp": 1096,
+      "fp": 9648,
+      "fn": 17286,
+      "tn": 130837,
+      "iou": 0.0391009632536568,
+      "precision": 0.10201042442293373,
+      "recall": 0.059623544772059625,
+      "f1": 0.07525921856760283,
+      "valid_pixels": 158867,
+      "scope": "valid non-ignored pixels; Tree class only"
+    },
+    "pair_metrics": [
+      {
+        "source_index": 1,
+        "target_index": 0,
+        "match_count": 1507,
+        "inlier_count": 1467,
+        "inlier_ratio": 0.973457199734572,
+        "inlier_rmse": 0.7545264175322304
+      },
+      {
+        "source_index": 2,
+        "target_index": 1,
+        "match_count": 1368,
+        "inlier_count": 1339,
+        "inlier_ratio": 0.9788011695906432,
+        "inlier_rmse": 0.7094133508485878
+      }
+    ],
+    "geometry_seconds": 0.39879190002102405
+  },
+  {
+    "scene_id": "0001TP_009780",
+    "method": "sift",
+    "status": "success",
+    "reason": null,
+    "corner_error_pixels": 0.011970823717779591,
+    "evaluation": {
+      "tp": 1109,
+      "fp": 9754,
+      "fn": 17273,
+      "tn": 130731,
+      "iou": 0.03941569519476827,
+      "precision": 0.10208966215594219,
+      "recall": 0.06033075835056033,
+      "f1": 0.0758420242776543,
+      "valid_pixels": 158867,
+      "scope": "valid non-ignored pixels; Tree class only"
+    },
+    "pair_metrics": [
+      {
+        "source_index": 1,
+        "target_index": 0,
+        "match_count": 152,
+        "inlier_count": 148,
+        "inlier_ratio": 0.9736842105263158,
+        "inlier_rmse": 0.027082025303390184
+      },
+      {
+        "source_index": 2,
+        "target_index": 1,
+        "match_count": 115,
+        "inlier_count": 113,
+        "inlier_ratio": 0.9826086956521739,
+        "inlier_rmse": 0.006452720219122721
+      }
+    ],
+    "geometry_seconds": 0.15395410000928678
+  },
+  {
+    "scene_id": "0001TP_009960",
+    "method": "orb",
+    "status": "success",
+    "reason": null,
+    "corner_error_pixels": 0.11249940946299296,
+    "evaluation": {
+      "tp": 1546,
+      "fp": 6737,
+      "fn": 29118,
+      "tn": 120039,
+      "iou": 0.04133579316061068,
+      "precision": 0.18664734999396354,
+      "recall": 0.05041742760240021,
+      "f1": 0.07938994017510977,
+      "valid_pixels": 157440,
+      "scope": "valid non-ignored pixels; Tree class only"
+    },
+    "pair_metrics": [
+      {
+        "source_index": 1,
+        "target_index": 0,
+        "match_count": 1443,
+        "inlier_count": 1420,
+        "inlier_ratio": 0.9840609840609841,
+        "inlier_rmse": 0.7422920009164534
+      },
+      {
+        "source_index": 2,
+        "target_index": 1,
+        "match_count": 1633,
+        "inlier_count": 1603,
+        "inlier_ratio": 0.9816289038579302,
+        "inlier_rmse": 0.707984157976384
+      }
+    ],
+    "geometry_seconds": 0.356670800014399
+  },
+  {
+    "scene_id": "0001TP_009960",
+    "method": "sift",
+    "status": "success",
+    "reason": null,
+    "corner_error_pixels": 0.035449511994506196,
+    "evaluation": {
+      "tp": 1556,
+      "fp": 6784,
+      "fn": 29108,
+      "tn": 119992,
+      "iou": 0.041550950651570176,
+      "precision": 0.18657074340527577,
+      "recall": 0.050743542916775373,
+      "f1": 0.07978668854476464,
+      "valid_pixels": 157440,
+      "scope": "valid non-ignored pixels; Tree class only"
+    },
+    "pair_metrics": [
+      {
+        "source_index": 1,
+        "target_index": 0,
+        "match_count": 149,
+        "inlier_count": 148,
+        "inlier_ratio": 0.9932885906040269,
+        "inlier_rmse": 0.1300959308083305
+      },
+      {
+        "source_index": 2,
+        "target_index": 1,
+        "match_count": 169,
+        "inlier_count": 169,
+        "inlier_ratio": 1.0,
+        "inlier_rmse": 0.06877693411047284
+      }
+    ],
+    "geometry_seconds": 0.16115839997655712
+  },
+  {
+    "scene_id": "0001TP_010170",
+    "method": "orb",
+    "status": "success",
+    "reason": null,
+    "corner_error_pixels": 0.4044960444438445,
+    "evaluation": {
+      "tp": 1302,
+      "fp": 8271,
+      "fn": 14963,
+      "tn": 139104,
+      "iou": 0.05306488425171177,
+      "precision": 0.1360075211532435,
+      "recall": 0.08004918536735321,
+      "f1": 0.10078179425652141,
+      "valid_pixels": 163640,
+      "scope": "valid non-ignored pixels; Tree class only"
+    },
+    "pair_metrics": [
+      {
+        "source_index": 1,
+        "target_index": 0,
+        "match_count": 1705,
+        "inlier_count": 1664,
+        "inlier_ratio": 0.9759530791788856,
+        "inlier_rmse": 0.7908766112840531
+      },
+      {
+        "source_index": 2,
+        "target_index": 1,
+        "match_count": 1783,
+        "inlier_count": 1731,
+        "inlier_ratio": 0.9708356702187325,
+        "inlier_rmse": 0.8674268918544329
+      }
+    ],
+    "geometry_seconds": 0.44828519999282435
+  },
+  {
+    "scene_id": "0001TP_010170",
+    "method": "sift",
+    "status": "success",
+    "reason": null,
+    "corner_error_pixels": 0.00263271113130286,
+    "evaluation": {
+      "tp": 1311,
+      "fp": 8958,
+      "fn": 14954,
+      "tn": 138538,
+      "iou": 0.05197637077270745,
+      "precision": 0.12766579024247737,
+      "recall": 0.08060252075007686,
+      "f1": 0.09881661264792342,
+      "valid_pixels": 163761,
+      "scope": "valid non-ignored pixels; Tree class only"
+    },
+    "pair_metrics": [
+      {
+        "source_index": 1,
+        "target_index": 0,
+        "match_count": 215,
+        "inlier_count": 210,
+        "inlier_ratio": 0.9767441860465116,
+        "inlier_rmse": 0.0032772995483683807
+      },
+      {
+        "source_index": 2,
+        "target_index": 1,
+        "match_count": 283,
+        "inlier_count": 283,
+        "inlier_ratio": 1.0,
+        "inlier_rmse": 0.00024137147766871168
+      }
+    ],
+    "geometry_seconds": 0.17474430002039298
+  },
+  {
+    "scene_id": "0001TP_010380",
+    "method": "orb",
+    "status": "success",
+    "reason": null,
+    "corner_error_pixels": 1.3069508986440994,
+    "evaluation": {
+      "tp": 2530,
+      "fp": 9314,
+      "fn": 26086,
+      "tn": 123441,
+      "iou": 0.06670181914052202,
+      "precision": 0.21361026680175615,
+      "recall": 0.08841207715963098,
+      "f1": 0.12506178942165103,
+      "valid_pixels": 161371,
+      "scope": "valid non-ignored pixels; Tree class only"
+    },
+    "pair_metrics": [
+      {
+        "source_index": 1,
+        "target_index": 0,
+        "match_count": 2083,
+        "inlier_count": 2043,
+        "inlier_ratio": 0.9807969275084013,
+        "inlier_rmse": 0.7939884707958482
+      },
+      {
+        "source_index": 2,
+        "target_index": 1,
+        "match_count": 1656,
+        "inlier_count": 1613,
+        "inlier_ratio": 0.9740338164251208,
+        "inlier_rmse": 0.836285524447112
+      }
+    ],
+    "geometry_seconds": 0.47029339999426156
+  },
+  {
+    "scene_id": "0001TP_010380",
+    "method": "sift",
+    "status": "success",
+    "reason": null,
+    "corner_error_pixels": 0.031833954408572875,
+    "evaluation": {
+      "tp": 2570,
+      "fp": 10520,
+      "fn": 26046,
+      "tn": 122827,
+      "iou": 0.06566843826655765,
+      "precision": 0.19633307868601987,
+      "recall": 0.08980989656136427,
+      "f1": 0.1232436579868604,
+      "valid_pixels": 161963,
+      "scope": "valid non-ignored pixels; Tree class only"
+    },
+    "pair_metrics": [
+      {
+        "source_index": 1,
+        "target_index": 0,
+        "match_count": 336,
+        "inlier_count": 331,
+        "inlier_ratio": 0.9851190476190477,
+        "inlier_rmse": 0.012108591142952157
+      },
+      {
+        "source_index": 2,
+        "target_index": 1,
+        "match_count": 306,
+        "inlier_count": 304,
+        "inlier_ratio": 0.9934640522875817,
+        "inlier_rmse": 0.0689351996627053
+      }
+    ],
+    "geometry_seconds": 0.1955825999903027
+  },
+  {
+    "scene_id": "Seq05VD_f00000",
+    "method": "orb",
+    "status": "success",
+    "reason": null,
+    "corner_error_pixels": 0.6702824090878607,
+    "evaluation": {
+      "tp": 7469,
+      "fp": 10912,
+      "fn": 17662,
+      "tn": 86869,
+      "iou": 0.20722470382598562,
+      "precision": 0.4063435068821065,
+      "recall": 0.29720265807170426,
+      "f1": 0.3433075933075933,
+      "valid_pixels": 122912,
+      "scope": "valid non-ignored pixels; Tree class only"
+    },
+    "pair_metrics": [
+      {
+        "source_index": 1,
+        "target_index": 0,
+        "match_count": 1505,
+        "inlier_count": 1457,
+        "inlier_ratio": 0.9681063122923588,
+        "inlier_rmse": 0.8040675335394283
+      },
+      {
+        "source_index": 2,
+        "target_index": 1,
+        "match_count": 1252,
+        "inlier_count": 1210,
+        "inlier_ratio": 0.9664536741214057,
+        "inlier_rmse": 0.9129844204284381
+      }
+    ],
+    "geometry_seconds": 0.4712465000047814
+  },
+  {
+    "scene_id": "Seq05VD_f00000",
+    "method": "sift",
+    "status": "success",
+    "reason": null,
+    "corner_error_pixels": 0.004452071376605564,
+    "evaluation": {
+      "tp": 7636,
+      "fp": 11072,
+      "fn": 17495,
+      "tn": 86812,
+      "iou": 0.21092174681656217,
+      "precision": 0.4081676288218944,
+      "recall": 0.30384783733237836,
+      "f1": 0.34836561052943726,
+      "valid_pixels": 123015,
+      "scope": "valid non-ignored pixels; Tree class only"
+    },
+    "pair_metrics": [
+      {
+        "source_index": 1,
+        "target_index": 0,
+        "match_count": 541,
+        "inlier_count": 541,
+        "inlier_ratio": 1.0,
+        "inlier_rmse": 0.011955155146194
+      },
+      {
+        "source_index": 2,
+        "target_index": 1,
+        "match_count": 531,
+        "inlier_count": 528,
+        "inlier_ratio": 0.9943502824858758,
+        "inlier_rmse": 0.034643742341896426
+      }
+    ],
+    "geometry_seconds": 0.2879994999966584
+  },
+  {
+    "scene_id": "Seq05VD_f00570",
+    "method": "orb",
+    "status": "success",
+    "reason": null,
+    "corner_error_pixels": 0.2836010916557638,
+    "evaluation": {
+      "tp": 875,
+      "fp": 20714,
+      "fn": 355,
+      "tn": 148731,
+      "iou": 0.039874225300765585,
+      "precision": 0.04052989948584927,
+      "recall": 0.7113821138211383,
+      "f1": 0.07669047723388404,
+      "valid_pixels": 170675,
+      "scope": "valid non-ignored pixels; Tree class only"
+    },
+    "pair_metrics": [
+      {
+        "source_index": 1,
+        "target_index": 0,
+        "match_count": 1725,
+        "inlier_count": 1674,
+        "inlier_ratio": 0.9704347826086956,
+        "inlier_rmse": 0.8015321397147812
+      },
+      {
+        "source_index": 2,
+        "target_index": 1,
+        "match_count": 1365,
+        "inlier_count": 1324,
+        "inlier_ratio": 0.96996336996337,
+        "inlier_rmse": 0.8393951568197578
+      }
+    ],
+    "geometry_seconds": 0.4642955999879632
+  },
+  {
+    "scene_id": "Seq05VD_f00570",
+    "method": "sift",
+    "status": "success",
+    "reason": null,
+    "corner_error_pixels": 0.014720082018253545,
+    "evaluation": {
+      "tp": 876,
+      "fp": 20874,
+      "fn": 354,
+      "tn": 148643,
+      "iou": 0.039630836047774155,
+      "precision": 0.040275862068965516,
+      "recall": 0.7121951219512195,
+      "f1": 0.0762402088772846,
+      "valid_pixels": 170747,
+      "scope": "valid non-ignored pixels; Tree class only"
+    },
+    "pair_metrics": [
+      {
+        "source_index": 1,
+        "target_index": 0,
+        "match_count": 383,
+        "inlier_count": 376,
+        "inlier_ratio": 0.9817232375979112,
+        "inlier_rmse": 0.041645900193802994
+      },
+      {
+        "source_index": 2,
+        "target_index": 1,
+        "match_count": 379,
+        "inlier_count": 374,
+        "inlier_ratio": 0.9868073878627969,
+        "inlier_rmse": 0.041105744871113827
+      }
+    ],
+    "geometry_seconds": 0.2442925999930594
+  },
+  {
+    "scene_id": "Seq05VD_f01140",
+    "method": "orb",
+    "status": "success",
+    "reason": null,
+    "corner_error_pixels": 1.4165419674254232,
+    "evaluation": {
+      "tp": 9999,
+      "fp": 6232,
+      "fn": 18468,
+      "tn": 137642,
+      "iou": 0.2881639240323929,
+      "precision": 0.616043373790894,
+      "recall": 0.35124881441669303,
+      "f1": 0.4474025683475771,
+      "valid_pixels": 172341,
+      "scope": "valid non-ignored pixels; Tree class only"
+    },
+    "pair_metrics": [
+      {
+        "source_index": 1,
+        "target_index": 0,
+        "match_count": 1894,
+        "inlier_count": 1832,
+        "inlier_ratio": 0.9672650475184794,
+        "inlier_rmse": 0.8532285090632556
+      },
+      {
+        "source_index": 2,
+        "target_index": 1,
+        "match_count": 1361,
+        "inlier_count": 1291,
+        "inlier_ratio": 0.9485672299779574,
+        "inlier_rmse": 0.9099279905111325
+      }
+    ],
+    "geometry_seconds": 0.4636331999790855
+  },
+  {
+    "scene_id": "Seq05VD_f01140",
+    "method": "sift",
+    "status": "success",
+    "reason": null,
+    "corner_error_pixels": 0.004220778231600595,
+    "evaluation": {
+      "tp": 10006,
+      "fp": 6620,
+      "fn": 18461,
+      "tn": 137309,
+      "iou": 0.28517684612534555,
+      "precision": 0.601828461445928,
+      "recall": 0.3514947131766607,
+      "f1": 0.4437939369746967,
+      "valid_pixels": 172396,
+      "scope": "valid non-ignored pixels; Tree class only"
+    },
+    "pair_metrics": [
+      {
+        "source_index": 1,
+        "target_index": 0,
+        "match_count": 506,
+        "inlier_count": 504,
+        "inlier_ratio": 0.9960474308300395,
+        "inlier_rmse": 0.005751432597633261
+      },
+      {
+        "source_index": 2,
+        "target_index": 1,
+        "match_count": 442,
+        "inlier_count": 435,
+        "inlier_ratio": 0.9841628959276018,
+        "inlier_rmse": 0.039184729452224815
+      }
+    ],
+    "geometry_seconds": 0.25731690000975505
+  },
+  {
+    "scene_id": "Seq05VD_f01710",
+    "method": "orb",
+    "status": "success",
+    "reason": null,
+    "corner_error_pixels": 1.0536503671095072,
+    "evaluation": {
+      "tp": 3164,
+      "fp": 8452,
+      "fn": 17964,
+      "tn": 131148,
+      "iou": 0.10696416497633536,
+      "precision": 0.2723829201101928,
+      "recall": 0.1497538811056418,
+      "f1": 0.19325677986806744,
+      "valid_pixels": 160728,
+      "scope": "valid non-ignored pixels; Tree class only"
+    },
+    "pair_metrics": [
+      {
+        "source_index": 1,
+        "target_index": 0,
+        "match_count": 1754,
+        "inlier_count": 1677,
+        "inlier_ratio": 0.9561003420752565,
+        "inlier_rmse": 0.8328764392108743
+      },
+      {
+        "source_index": 2,
+        "target_index": 1,
+        "match_count": 998,
+        "inlier_count": 950,
+        "inlier_ratio": 0.9519038076152304,
+        "inlier_rmse": 0.9179585879126051
+      }
+    ],
+    "geometry_seconds": 0.47448530001565814
+  },
+  {
+    "scene_id": "Seq05VD_f01710",
+    "method": "sift",
+    "status": "success",
+    "reason": null,
+    "corner_error_pixels": 0.004927669546704802,
+    "evaluation": {
+      "tp": 3393,
+      "fp": 8799,
+      "fn": 17744,
+      "tn": 131460,
+      "iou": 0.11334179583110636,
+      "precision": 0.2782972440944882,
+      "recall": 0.16052419927141978,
+      "f1": 0.20360646884094932,
+      "valid_pixels": 161396,
+      "scope": "valid non-ignored pixels; Tree class only"
+    },
+    "pair_metrics": [
+      {
+        "source_index": 1,
+        "target_index": 0,
+        "match_count": 529,
+        "inlier_count": 516,
+        "inlier_ratio": 0.9754253308128544,
+        "inlier_rmse": 0.027877934988339997
+      },
+      {
+        "source_index": 2,
+        "target_index": 1,
+        "match_count": 455,
+        "inlier_count": 452,
+        "inlier_ratio": 0.9934065934065934,
+        "inlier_rmse": 0.04534398319745381
+      }
+    ],
+    "geometry_seconds": 0.27483129999018274
+  },
+  {
+    "scene_id": "Seq05VD_f02280",
+    "method": "orb",
+    "status": "success",
+    "reason": null,
+    "corner_error_pixels": 0.7695416386716066,
+    "evaluation": {
+      "tp": 593,
+      "fp": 5663,
+      "fn": 5123,
+      "tn": 154730,
+      "iou": 0.05211354249055277,
+      "precision": 0.09478900255754476,
+      "recall": 0.10374387683694891,
+      "f1": 0.09906448379552289,
+      "valid_pixels": 166109,
+      "scope": "valid non-ignored pixels; Tree class only"
+    },
+    "pair_metrics": [
+      {
+        "source_index": 1,
+        "target_index": 0,
+        "match_count": 1963,
+        "inlier_count": 1883,
+        "inlier_ratio": 0.9592460519612838,
+        "inlier_rmse": 0.813496270073503
+      },
+      {
+        "source_index": 2,
+        "target_index": 1,
+        "match_count": 1854,
+        "inlier_count": 1801,
+        "inlier_ratio": 0.9714131607335491,
+        "inlier_rmse": 0.8675887464645313
+      }
+    ],
+    "geometry_seconds": 0.48685309998109005
+  },
+  {
+    "scene_id": "Seq05VD_f02280",
+    "method": "sift",
+    "status": "success",
+    "reason": null,
+    "corner_error_pixels": 0.008502502545331555,
+    "evaluation": {
+      "tp": 608,
+      "fp": 6285,
+      "fn": 5108,
+      "tn": 154108,
+      "iou": 0.05066244479626698,
+      "precision": 0.08820542579428406,
+      "recall": 0.10636808957312806,
+      "f1": 0.09643905147117139,
+      "valid_pixels": 166109,
+      "scope": "valid non-ignored pixels; Tree class only"
+    },
+    "pair_metrics": [
+      {
+        "source_index": 1,
+        "target_index": 0,
+        "match_count": 657,
+        "inlier_count": 650,
+        "inlier_ratio": 0.989345509893455,
+        "inlier_rmse": 0.06890759402533914
+      },
+      {
+        "source_index": 2,
+        "target_index": 1,
+        "match_count": 655,
+        "inlier_count": 649,
+        "inlier_ratio": 0.9908396946564886,
+        "inlier_rmse": 0.060112405737893976
+      }
+    ],
+    "geometry_seconds": 0.31539810000685975
+  },
+  {
+    "scene_id": "Seq05VD_f02820",
+    "method": "orb",
+    "status": "success",
+    "reason": null,
+    "corner_error_pixels": 0.12649462833460076,
+    "evaluation": {
+      "tp": 600,
+      "fp": 5809,
+      "fn": 7165,
+      "tn": 157023,
+      "iou": 0.04420215117135701,
+      "precision": 0.0936183491964425,
+      "recall": 0.07726980038634901,
+      "f1": 0.0846620572879921,
+      "valid_pixels": 170597,
+      "scope": "valid non-ignored pixels; Tree class only"
+    },
+    "pair_metrics": [
+      {
+        "source_index": 1,
+        "target_index": 0,
+        "match_count": 1919,
+        "inlier_count": 1845,
+        "inlier_ratio": 0.9614382490880667,
+        "inlier_rmse": 0.8073241629084359
+      },
+      {
+        "source_index": 2,
+        "target_index": 1,
+        "match_count": 1860,
+        "inlier_count": 1802,
+        "inlier_ratio": 0.9688172043010753,
+        "inlier_rmse": 0.8368314960689024
+      }
+    ],
+    "geometry_seconds": 0.47504160000244156
+  },
+  {
+    "scene_id": "Seq05VD_f02820",
+    "method": "sift",
+    "status": "success",
+    "reason": null,
+    "corner_error_pixels": 0.004535574843889665,
+    "evaluation": {
+      "tp": 610,
+      "fp": 5985,
+      "fn": 7155,
+      "tn": 156847,
+      "iou": 0.04436363636363636,
+      "precision": 0.09249431387414708,
+      "recall": 0.07855763039278815,
+      "f1": 0.08495821727019498,
+      "valid_pixels": 170597,
+      "scope": "valid non-ignored pixels; Tree class only"
+    },
+    "pair_metrics": [
+      {
+        "source_index": 1,
+        "target_index": 0,
+        "match_count": 650,
+        "inlier_count": 648,
+        "inlier_ratio": 0.9969230769230769,
+        "inlier_rmse": 0.0638418288930819
+      },
+      {
+        "source_index": 2,
+        "target_index": 1,
+        "match_count": 626,
+        "inlier_count": 621,
+        "inlier_ratio": 0.9920127795527156,
+        "inlier_rmse": 0.03261698211461713
+      }
+    ],
+    "geometry_seconds": 0.3083178999950178
+  },
+  {
+    "scene_id": "Seq05VD_f03390",
+    "method": "orb",
+    "status": "success",
+    "reason": null,
+    "corner_error_pixels": 2.545571615871307,
+    "evaluation": {
+      "tp": 7081,
+      "fp": 5613,
+      "fn": 27689,
+      "tn": 130087,
+      "iou": 0.17534606146150608,
+      "precision": 0.5578225933511896,
+      "recall": 0.20365257405809606,
+      "f1": 0.29837350412944547,
+      "valid_pixels": 170470,
+      "scope": "valid non-ignored pixels; Tree class only"
+    },
+    "pair_metrics": [
+      {
+        "source_index": 1,
+        "target_index": 0,
+        "match_count": 1082,
+        "inlier_count": 1003,
+        "inlier_ratio": 0.9269870609981515,
+        "inlier_rmse": 0.9526094127088421
+      },
+      {
+        "source_index": 2,
+        "target_index": 1,
+        "match_count": 1147,
+        "inlier_count": 1066,
+        "inlier_ratio": 0.9293809938971229,
+        "inlier_rmse": 1.0159142737587714
+      }
+    ],
+    "geometry_seconds": 0.45836599997710437
+  },
+  {
+    "scene_id": "Seq05VD_f03390",
+    "method": "sift",
+    "status": "success",
+    "reason": null,
+    "corner_error_pixels": 0.016601158590012616,
+    "evaluation": {
+      "tp": 7073,
+      "fp": 5761,
+      "fn": 27697,
+      "tn": 130285,
+      "iou": 0.17450840097702994,
+      "precision": 0.5511142278323204,
+      "recall": 0.20342249065286166,
+      "f1": 0.2971599025291992,
+      "valid_pixels": 170816,
+      "scope": "valid non-ignored pixels; Tree class only"
+    },
+    "pair_metrics": [
+      {
+        "source_index": 1,
+        "target_index": 0,
+        "match_count": 366,
+        "inlier_count": 363,
+        "inlier_ratio": 0.9918032786885246,
+        "inlier_rmse": 0.009681651202610664
+      },
+      {
+        "source_index": 2,
+        "target_index": 1,
+        "match_count": 212,
+        "inlier_count": 207,
+        "inlier_ratio": 0.9764150943396226,
+        "inlier_rmse": 0.05424512110214077
+      }
+    ],
+    "geometry_seconds": 0.20319620001828298
+  },
+  {
+    "scene_id": "Seq05VD_f03960",
+    "method": "orb",
+    "status": "success",
+    "reason": null,
+    "corner_error_pixels": 0.7389905833426397,
+    "evaluation": {
+      "tp": 248,
+      "fp": 3377,
+      "fn": 5008,
+      "tn": 160567,
+      "iou": 0.028726977875593654,
+      "precision": 0.06841379310344828,
+      "recall": 0.0471841704718417,
+      "f1": 0.05584956649026011,
+      "valid_pixels": 169200,
+      "scope": "valid non-ignored pixels; Tree class only"
+    },
+    "pair_metrics": [
+      {
+        "source_index": 1,
+        "target_index": 0,
+        "match_count": 1891,
+        "inlier_count": 1828,
+        "inlier_ratio": 0.9666842940243258,
+        "inlier_rmse": 0.8159400540649878
+      },
+      {
+        "source_index": 2,
+        "target_index": 1,
+        "match_count": 1014,
+        "inlier_count": 964,
+        "inlier_ratio": 0.9506903353057199,
+        "inlier_rmse": 0.9329938657657607
+      }
+    ],
+    "geometry_seconds": 0.4662615999986883
+  },
+  {
+    "scene_id": "Seq05VD_f03960",
+    "method": "sift",
+    "status": "success",
+    "reason": null,
+    "corner_error_pixels": 0.009993841197813816,
+    "evaluation": {
+      "tp": 255,
+      "fp": 3633,
+      "fn": 5001,
+      "tn": 161155,
+      "iou": 0.028687141410732364,
+      "precision": 0.06558641975308642,
+      "recall": 0.048515981735159815,
+      "f1": 0.0557742782152231,
+      "valid_pixels": 170044,
+      "scope": "valid non-ignored pixels; Tree class only"
+    },
+    "pair_metrics": [
+      {
+        "source_index": 1,
+        "target_index": 0,
+        "match_count": 433,
+        "inlier_count": 430,
+        "inlier_ratio": 0.9930715935334873,
+        "inlier_rmse": 0.02321580126939242
+      },
+      {
+        "source_index": 2,
+        "target_index": 1,
+        "match_count": 240,
+        "inlier_count": 237,
+        "inlier_ratio": 0.9875,
+        "inlier_rmse": 0.014683760099283382
+      }
+    ],
+    "geometry_seconds": 0.21893209998961538
+  },
+  {
+    "scene_id": "Seq05VD_f04530",
+    "method": "orb",
+    "status": "success",
+    "reason": null,
+    "corner_error_pixels": 0.3280315757511539,
+    "evaluation": {
+      "tp": 3426,
+      "fp": 7385,
+      "fn": 5703,
+      "tn": 150852,
+      "iou": 0.20746033668402566,
+      "precision": 0.31689945425955046,
+      "recall": 0.37528754518567203,
+      "f1": 0.3436308926780341,
+      "valid_pixels": 167366,
+      "scope": "valid non-ignored pixels; Tree class only"
+    },
+    "pair_metrics": [
+      {
+        "source_index": 1,
+        "target_index": 0,
+        "match_count": 1908,
+        "inlier_count": 1829,
+        "inlier_ratio": 0.9585953878406709,
+        "inlier_rmse": 0.7941230615621651
+      },
+      {
+        "source_index": 2,
+        "target_index": 1,
+        "match_count": 1304,
+        "inlier_count": 1272,
+        "inlier_ratio": 0.9754601226993865,
+        "inlier_rmse": 0.8155922844738421
+      }
+    ],
+    "geometry_seconds": 0.4761562000203412
+  },
+  {
+    "scene_id": "Seq05VD_f04530",
+    "method": "sift",
+    "status": "success",
+    "reason": null,
+    "corner_error_pixels": 0.02389497698772014,
+    "evaluation": {
+      "tp": 3422,
+      "fp": 7530,
+      "fn": 5707,
+      "tn": 150707,
+      "iou": 0.20541449066570622,
+      "precision": 0.31245434623813,
+      "recall": 0.3748493810932194,
+      "f1": 0.340819680294806,
+      "valid_pixels": 167366,
+      "scope": "valid non-ignored pixels; Tree class only"
+    },
+    "pair_metrics": [
+      {
+        "source_index": 1,
+        "target_index": 0,
+        "match_count": 430,
+        "inlier_count": 417,
+        "inlier_ratio": 0.9697674418604652,
+        "inlier_rmse": 0.08106785245851388
+      },
+      {
+        "source_index": 2,
+        "target_index": 1,
+        "match_count": 288,
+        "inlier_count": 285,
+        "inlier_ratio": 0.9895833333333334,
+        "inlier_rmse": 0.06626158593994418
+      }
+    ],
+    "geometry_seconds": 0.22131749999243766
+  },
+  {
+    "scene_id": "Seq05VD_f05100",
+    "method": "orb",
+    "status": "success",
+    "reason": null,
+    "corner_error_pixels": 1.6074208212960022,
+    "evaluation": {
+      "tp": 665,
+      "fp": 11187,
+      "fn": 129,
+      "tn": 152936,
+      "iou": 0.05550454886904265,
+      "precision": 0.05610867364157948,
+      "recall": 0.8375314861460957,
+      "f1": 0.10517159576150562,
+      "valid_pixels": 164917,
+      "scope": "valid non-ignored pixels; Tree class only"
+    },
+    "pair_metrics": [
+      {
+        "source_index": 1,
+        "target_index": 0,
+        "match_count": 1692,
+        "inlier_count": 1638,
+        "inlier_ratio": 0.9680851063829787,
+        "inlier_rmse": 0.8176607511485455
+      },
+      {
+        "source_index": 2,
+        "target_index": 1,
+        "match_count": 1574,
+        "inlier_count": 1526,
+        "inlier_ratio": 0.9695044472681067,
+        "inlier_rmse": 0.843575051464972
+      }
+    ],
+    "geometry_seconds": 0.4887474999995902
+  },
+  {
+    "scene_id": "Seq05VD_f05100",
+    "method": "sift",
+    "status": "success",
+    "reason": null,
+    "corner_error_pixels": 0.046807197428802884,
+    "evaluation": {
+      "tp": 664,
+      "fp": 11467,
+      "fn": 130,
+      "tn": 154231,
+      "iou": 0.05415545224696191,
+      "precision": 0.05473580084082104,
+      "recall": 0.836272040302267,
+      "f1": 0.10274661508704062,
+      "valid_pixels": 166492,
+      "scope": "valid non-ignored pixels; Tree class only"
+    },
+    "pair_metrics": [
+      {
+        "source_index": 1,
+        "target_index": 0,
+        "match_count": 312,
+        "inlier_count": 310,
+        "inlier_ratio": 0.9935897435897436,
+        "inlier_rmse": 0.003788565484425412
+      },
+      {
+        "source_index": 2,
+        "target_index": 1,
+        "match_count": 310,
+        "inlier_count": 307,
+        "inlier_ratio": 0.9903225806451613,
+        "inlier_rmse": 0.08868559299688604
+      }
+    ],
+    "geometry_seconds": 0.210567500005709
+  }
+]

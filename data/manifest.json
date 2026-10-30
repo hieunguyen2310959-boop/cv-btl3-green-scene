@@ -1,0 +1,768 @@
+{
+  "dataset": "CamVid / SegNet-Tutorial subset",
+  "upstream_commit": "bb68b64e72cb004b3ed927fee0f5624dd8097498",
+  "sampling": "10 uniformly-spaced frames per sequence, deterministic; no label selection",
+  "split_policy": "sequence-disjoint development and test; correlated frames within sequence",
+  "scenes": [
+    {
+      "scene_id": "0006R0_f00930",
+      "split": "dev",
+      "sequence": "0006R0",
+      "image_path": "data/camvid/images/0006R0_f00930.png",
+      "annotation_path": "data/camvid/labels/0006R0_f00930.png",
+      "image_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/train/0006R0_f00930.png",
+      "annotation_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/trainannot/0006R0_f00930.png",
+      "source_split": "train",
+      "positive_class_ids": [
+        5
+      ],
+      "ignore_class_ids": [
+        11
+      ],
+      "annotation_semantics": "CamVid 12-class Tree; not all vegetation species",
+      "image_sha256": "b3f70ae4fd2426656addce9ae6ed10806fbf9c42534e27d5cc99b1155ac25fc9",
+      "annotation_sha256": "d569b2700016e4183b26f439b21eb21b8a06b40eb8522078c40505f2a7d35c6f"
+    },
+    {
+      "scene_id": "0006R0_f01260",
+      "split": "dev",
+      "sequence": "0006R0",
+      "image_path": "data/camvid/images/0006R0_f01260.png",
+      "annotation_path": "data/camvid/labels/0006R0_f01260.png",
+      "image_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/train/0006R0_f01260.png",
+      "annotation_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/trainannot/0006R0_f01260.png",
+      "source_split": "train",
+      "positive_class_ids": [
+        5
+      ],
+      "ignore_class_ids": [
+        11
+      ],
+      "annotation_semantics": "CamVid 12-class Tree; not all vegetation species",
+      "image_sha256": "d15b0b318d3d755909bcd06828316bd4a62e21bf5ba16dc89d107d2c764bd3df",
+      "annotation_sha256": "35248c2d453189918346b01cddf579a87135de9e8e94fbd4bc536e18a85779f4"
+    },
+    {
+      "scene_id": "0006R0_f01590",
+      "split": "dev",
+      "sequence": "0006R0",
+      "image_path": "data/camvid/images/0006R0_f01590.png",
+      "annotation_path": "data/camvid/labels/0006R0_f01590.png",
+      "image_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/train/0006R0_f01590.png",
+      "annotation_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/trainannot/0006R0_f01590.png",
+      "source_split": "train",
+      "positive_class_ids": [
+        5
+      ],
+      "ignore_class_ids": [
+        11
+      ],
+      "annotation_semantics": "CamVid 12-class Tree; not all vegetation species",
+      "image_sha256": "c4141a5cc34eb33d0b1cc4e32fbc5657b2f1f30d12c0c87a7fd974346cd89583",
+      "annotation_sha256": "71db4ef2147703191d7a6adecf24255e50df5fe3bec3e7ed76f183814461ba98"
+    },
+    {
+      "scene_id": "0006R0_f01920",
+      "split": "dev",
+      "sequence": "0006R0",
+      "image_path": "data/camvid/images/0006R0_f01920.png",
+      "annotation_path": "data/camvid/labels/0006R0_f01920.png",
+      "image_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/train/0006R0_f01920.png",
+      "annotation_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/trainannot/0006R0_f01920.png",
+      "source_split": "train",
+      "positive_class_ids": [
+        5
+      ],
+      "ignore_class_ids": [
+        11
+      ],
+      "annotation_semantics": "CamVid 12-class Tree; not all vegetation species",
+      "image_sha256": "636f7ce533d0ed63189f45f2d76f5cb359a1325392c91cecb691c30f6483e674",
+      "annotation_sha256": "b74d2e3f4ae1ddcf2f46e2507ab9fca211f82de2764bcfbe81b93d83a4fa64ce"
+    },
+    {
+      "scene_id": "0006R0_f02250",
+      "split": "dev",
+      "sequence": "0006R0",
+      "image_path": "data/camvid/images/0006R0_f02250.png",
+      "annotation_path": "data/camvid/labels/0006R0_f02250.png",
+      "image_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/train/0006R0_f02250.png",
+      "annotation_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/trainannot/0006R0_f02250.png",
+      "source_split": "train",
+      "positive_class_ids": [
+        5
+      ],
+      "ignore_class_ids": [
+        11
+      ],
+      "annotation_semantics": "CamVid 12-class Tree; not all vegetation species",
+      "image_sha256": "f05cd26903ec26cf37291f214a5ae7f9bacc29eda3b84c83a32613036dd8593e",
+      "annotation_sha256": "ce0214e016a37c60f1e9d9e8f0ddbbdb0eece7e4af2fd8ef0bb4279c09516b70"
+    },
+    {
+      "scene_id": "0006R0_f02610",
+      "split": "dev",
+      "sequence": "0006R0",
+      "image_path": "data/camvid/images/0006R0_f02610.png",
+      "annotation_path": "data/camvid/labels/0006R0_f02610.png",
+      "image_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/train/0006R0_f02610.png",
+      "annotation_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/trainannot/0006R0_f02610.png",
+      "source_split": "train",
+      "positive_class_ids": [
+        5
+      ],
+      "ignore_class_ids": [
+        11
+      ],
+      "annotation_semantics": "CamVid 12-class Tree; not all vegetation species",
+      "image_sha256": "fb7c0a5beb5709e22f355cf7f8190ae6f5d245f88b4f97d977eeb9ec9444c547",
+      "annotation_sha256": "0556f9cdbb8bc2f7e066926027c8d25cf208bae62823d76259cedc33ba511dde"
+    },
+    {
+      "scene_id": "0006R0_f02940",
+      "split": "dev",
+      "sequence": "0006R0",
+      "image_path": "data/camvid/images/0006R0_f02940.png",
+      "annotation_path": "data/camvid/labels/0006R0_f02940.png",
+      "image_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/train/0006R0_f02940.png",
+      "annotation_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/trainannot/0006R0_f02940.png",
+      "source_split": "train",
+      "positive_class_ids": [
+        5
+      ],
+      "ignore_class_ids": [
+        11
+      ],
+      "annotation_semantics": "CamVid 12-class Tree; not all vegetation species",
+      "image_sha256": "7b875531698f172898ed70462ef2304f24ac9bb38a018a1912aea18a72b2a046",
+      "annotation_sha256": "f5a42f5a35520a111bfd81650da9826b15a048cecffdc76df9558c926bc01a96"
+    },
+    {
+      "scene_id": "0006R0_f03270",
+      "split": "dev",
+      "sequence": "0006R0",
+      "image_path": "data/camvid/images/0006R0_f03270.png",
+      "annotation_path": "data/camvid/labels/0006R0_f03270.png",
+      "image_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/train/0006R0_f03270.png",
+      "annotation_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/trainannot/0006R0_f03270.png",
+      "source_split": "train",
+      "positive_class_ids": [
+        5
+      ],
+      "ignore_class_ids": [
+        11
+      ],
+      "annotation_semantics": "CamVid 12-class Tree; not all vegetation species",
+      "image_sha256": "32268e6b9b887c32c2fc7a783693e344dd1a8fabbdf9d13aa307803054efb0d6",
+      "annotation_sha256": "2ebddbdf13dbb81c1893b36f54d8271b84903e4aa4850477a3f6b19dbfaad6c7"
+    },
+    {
+      "scene_id": "0006R0_f03600",
+      "split": "dev",
+      "sequence": "0006R0",
+      "image_path": "data/camvid/images/0006R0_f03600.png",
+      "annotation_path": "data/camvid/labels/0006R0_f03600.png",
+      "image_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/train/0006R0_f03600.png",
+      "annotation_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/trainannot/0006R0_f03600.png",
+      "source_split": "train",
+      "positive_class_ids": [
+        5
+      ],
+      "ignore_class_ids": [
+        11
+      ],
+      "annotation_semantics": "CamVid 12-class Tree; not all vegetation species",
+      "image_sha256": "99375c146ae237aef2210828ed308a8247eb5b5d5d242aa46e52d014fb9c86fc",
+      "annotation_sha256": "88370c35631d776848ab8261d62cc36cadf2007ffe9d8287ea310ddd27bdd61e"
+    },
+    {
+      "scene_id": "0006R0_f03930",
+      "split": "dev",
+      "sequence": "0006R0",
+      "image_path": "data/camvid/images/0006R0_f03930.png",
+      "annotation_path": "data/camvid/labels/0006R0_f03930.png",
+      "image_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/train/0006R0_f03930.png",
+      "annotation_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/trainannot/0006R0_f03930.png",
+      "source_split": "train",
+      "positive_class_ids": [
+        5
+      ],
+      "ignore_class_ids": [
+        11
+      ],
+      "annotation_semantics": "CamVid 12-class Tree; not all vegetation species",
+      "image_sha256": "546cd4cf164cd37c153635373aa1ab8f2215163e510b8d226eec421de3daddd2",
+      "annotation_sha256": "b53286d7caf7a6af7fac4174b442efacc8b8fce7141c02eb591a0b09760e0daf"
+    },
+    {
+      "scene_id": "0016E5_00390",
+      "split": "dev",
+      "sequence": "0016E5",
+      "image_path": "data/camvid/images/0016E5_00390.png",
+      "annotation_path": "data/camvid/labels/0016E5_00390.png",
+      "image_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/train/0016E5_00390.png",
+      "annotation_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/trainannot/0016E5_00390.png",
+      "source_split": "train",
+      "positive_class_ids": [
+        5
+      ],
+      "ignore_class_ids": [
+        11
+      ],
+      "annotation_semantics": "CamVid 12-class Tree; not all vegetation species",
+      "image_sha256": "9573a51008626246760c191369bdd1d7aca099b138bc8a859af76565763f7d41",
+      "annotation_sha256": "a699538286c2a2a2e54bfe6377cdd3386a4440956d0d18a1db8ad04b13c6081d"
+    },
+    {
+      "scene_id": "0016E5_01080",
+      "split": "dev",
+      "sequence": "0016E5",
+      "image_path": "data/camvid/images/0016E5_01080.png",
+      "annotation_path": "data/camvid/labels/0016E5_01080.png",
+      "image_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/train/0016E5_01080.png",
+      "annotation_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/trainannot/0016E5_01080.png",
+      "source_split": "train",
+      "positive_class_ids": [
+        5
+      ],
+      "ignore_class_ids": [
+        11
+      ],
+      "annotation_semantics": "CamVid 12-class Tree; not all vegetation species",
+      "image_sha256": "af1ddc5e4210fd2c1194b91f6a970f1912605fb09fbfb5a47d825126e83f725f",
+      "annotation_sha256": "b6da2aae7949184f46bc2c0b4e2e4aa3583c452bcb8f3af75fc7ba94bb8a245f"
+    },
+    {
+      "scene_id": "0016E5_01740",
+      "split": "dev",
+      "sequence": "0016E5",
+      "image_path": "data/camvid/images/0016E5_01740.png",
+      "annotation_path": "data/camvid/labels/0016E5_01740.png",
+      "image_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/train/0016E5_01740.png",
+      "annotation_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/trainannot/0016E5_01740.png",
+      "source_split": "train",
+      "positive_class_ids": [
+        5
+      ],
+      "ignore_class_ids": [
+        11
+      ],
+      "annotation_semantics": "CamVid 12-class Tree; not all vegetation species",
+      "image_sha256": "78a09524d04079f4007d1f2810c44df80d323573a92c71bc490b59e418fa2b07",
+      "annotation_sha256": "0aa7a2ae56f2c0a19f189c8f6b97cf7f43af9922b876aa02c2d4dbe34800d436"
+    },
+    {
+      "scene_id": "0016E5_04350",
+      "split": "dev",
+      "sequence": "0016E5",
+      "image_path": "data/camvid/images/0016E5_04350.png",
+      "annotation_path": "data/camvid/labels/0016E5_04350.png",
+      "image_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/train/0016E5_04350.png",
+      "annotation_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/trainannot/0016E5_04350.png",
+      "source_split": "train",
+      "positive_class_ids": [
+        5
+      ],
+      "ignore_class_ids": [
+        11
+      ],
+      "annotation_semantics": "CamVid 12-class Tree; not all vegetation species",
+      "image_sha256": "2ef5d8e9f6054f3eaedd3e4410e4a808a527c5f52e45cab4b44bad7544157666",
+      "annotation_sha256": "38df4e93180ac2eedf2cf4a62f869f587d729f7486e9ba841fee1dc00e4700a9"
+    },
+    {
+      "scene_id": "0016E5_05010",
+      "split": "dev",
+      "sequence": "0016E5",
+      "image_path": "data/camvid/images/0016E5_05010.png",
+      "annotation_path": "data/camvid/labels/0016E5_05010.png",
+      "image_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/train/0016E5_05010.png",
+      "annotation_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/trainannot/0016E5_05010.png",
+      "source_split": "train",
+      "positive_class_ids": [
+        5
+      ],
+      "ignore_class_ids": [
+        11
+      ],
+      "annotation_semantics": "CamVid 12-class Tree; not all vegetation species",
+      "image_sha256": "6a8197b967cab27bda6eb802f86fa8c19972e6d00a0689c4eb55ba344e082b60",
+      "annotation_sha256": "6b7b3fa9af84d471c28c6dae407687339ebdc597febda25c84831d94ebf9575f"
+    },
+    {
+      "scene_id": "0016E5_05700",
+      "split": "dev",
+      "sequence": "0016E5",
+      "image_path": "data/camvid/images/0016E5_05700.png",
+      "annotation_path": "data/camvid/labels/0016E5_05700.png",
+      "image_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/train/0016E5_05700.png",
+      "annotation_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/trainannot/0016E5_05700.png",
+      "source_split": "train",
+      "positive_class_ids": [
+        5
+      ],
+      "ignore_class_ids": [
+        11
+      ],
+      "annotation_semantics": "CamVid 12-class Tree; not all vegetation species",
+      "image_sha256": "ccb5cb190f7146ed891c8d80aed9da4bbea1636276e208acf92c523321b72461",
+      "annotation_sha256": "c4cd147ba8e5aa913c9efb9c79f9a4cfd6764c8f7d016eeadca84cb3c360c860"
+    },
+    {
+      "scene_id": "0016E5_06360",
+      "split": "dev",
+      "sequence": "0016E5",
+      "image_path": "data/camvid/images/0016E5_06360.png",
+      "annotation_path": "data/camvid/labels/0016E5_06360.png",
+      "image_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/train/0016E5_06360.png",
+      "annotation_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/trainannot/0016E5_06360.png",
+      "source_split": "train",
+      "positive_class_ids": [
+        5
+      ],
+      "ignore_class_ids": [
+        11
+      ],
+      "annotation_semantics": "CamVid 12-class Tree; not all vegetation species",
+      "image_sha256": "7456fe36655fcf217ba3effb481d163272f4746bdf77818f4e87eaf2be3d3687",
+      "annotation_sha256": "80e05d3323671fb6126b68639ab1d1701f889037d21eb14baa0c759b1c917c5d"
+    },
+    {
+      "scene_id": "0016E5_07050",
+      "split": "dev",
+      "sequence": "0016E5",
+      "image_path": "data/camvid/images/0016E5_07050.png",
+      "annotation_path": "data/camvid/labels/0016E5_07050.png",
+      "image_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/train/0016E5_07050.png",
+      "annotation_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/trainannot/0016E5_07050.png",
+      "source_split": "train",
+      "positive_class_ids": [
+        5
+      ],
+      "ignore_class_ids": [
+        11
+      ],
+      "annotation_semantics": "CamVid 12-class Tree; not all vegetation species",
+      "image_sha256": "98a314447f43e203d99e41cdbc6dca1e69f7bed679be5aeea4f5b14cf51a23bc",
+      "annotation_sha256": "7522e1342eb3fc95cf1053a0b45694c174c42345e69b3fe8d0425829df02ba9f"
+    },
+    {
+      "scene_id": "0016E5_07710",
+      "split": "dev",
+      "sequence": "0016E5",
+      "image_path": "data/camvid/images/0016E5_07710.png",
+      "annotation_path": "data/camvid/labels/0016E5_07710.png",
+      "image_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/train/0016E5_07710.png",
+      "annotation_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/trainannot/0016E5_07710.png",
+      "source_split": "train",
+      "positive_class_ids": [
+        5
+      ],
+      "ignore_class_ids": [
+        11
+      ],
+      "annotation_semantics": "CamVid 12-class Tree; not all vegetation species",
+      "image_sha256": "79c7af60b9b7ea9e786340692c6abf2d211ed8b5ca1a9cfd275a61b7a28590f9",
+      "annotation_sha256": "6480ae89c55bc9d53fb1006eb89a5df9ed0a4867ab3176aee462f1287faa6fd5"
+    },
+    {
+      "scene_id": "0016E5_08640",
+      "split": "dev",
+      "sequence": "0016E5",
+      "image_path": "data/camvid/images/0016E5_08640.png",
+      "annotation_path": "data/camvid/labels/0016E5_08640.png",
+      "image_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/train/0016E5_08640.png",
+      "annotation_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/trainannot/0016E5_08640.png",
+      "source_split": "train",
+      "positive_class_ids": [
+        5
+      ],
+      "ignore_class_ids": [
+        11
+      ],
+      "annotation_semantics": "CamVid 12-class Tree; not all vegetation species",
+      "image_sha256": "9d63b33b4cfb57950f25e81e2355d12c36a5e7387268411e55445eeff36e151f",
+      "annotation_sha256": "a0e91dd536d506e28c60f7d325b6828a0c57fccc24534fec6b9b7c1889a56eff"
+    },
+    {
+      "scene_id": "0001TP_008550",
+      "split": "test",
+      "sequence": "0001TP",
+      "image_path": "data/camvid/images/0001TP_008550.png",
+      "annotation_path": "data/camvid/labels/0001TP_008550.png",
+      "image_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/test/0001TP_008550.png",
+      "annotation_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/testannot/0001TP_008550.png",
+      "source_split": "test",
+      "positive_class_ids": [
+        5
+      ],
+      "ignore_class_ids": [
+        11
+      ],
+      "annotation_semantics": "CamVid 12-class Tree; not all vegetation species",
+      "image_sha256": "b33562864012e8ca23f4d4d95ee18861f20dc2bec1badc534a6f1c03f4285ab5",
+      "annotation_sha256": "a0c0665af698b6caac93691c3be26cbe6fcbc575e2e488f055cc0c3dc195765d"
+    },
+    {
+      "scene_id": "0001TP_008760",
+      "split": "test",
+      "sequence": "0001TP",
+      "image_path": "data/camvid/images/0001TP_008760.png",
+      "annotation_path": "data/camvid/labels/0001TP_008760.png",
+      "image_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/test/0001TP_008760.png",
+      "annotation_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/testannot/0001TP_008760.png",
+      "source_split": "test",
+      "positive_class_ids": [
+        5
+      ],
+      "ignore_class_ids": [
+        11
+      ],
+      "annotation_semantics": "CamVid 12-class Tree; not all vegetation species",
+      "image_sha256": "401bbed81d1b2fda2ce7dd796399aa85d7b3a4b31c7c2b943170b8f772e813b0",
+      "annotation_sha256": "44aae28c7518fdc52a862b7156382b811f063586b630cd10dc29941afd486b27"
+    },
+    {
+      "scene_id": "0001TP_008970",
+      "split": "test",
+      "sequence": "0001TP",
+      "image_path": "data/camvid/images/0001TP_008970.png",
+      "annotation_path": "data/camvid/labels/0001TP_008970.png",
+      "image_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/test/0001TP_008970.png",
+      "annotation_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/testannot/0001TP_008970.png",
+      "source_split": "test",
+      "positive_class_ids": [
+        5
+      ],
+      "ignore_class_ids": [
+        11
+      ],
+      "annotation_semantics": "CamVid 12-class Tree; not all vegetation species",
+      "image_sha256": "831b4879488ad8626b89cf286a8f21e6d2478b6611a762ececabcfc14fddab4d",
+      "annotation_sha256": "f385461fc0dad6593d362143fc06da308e4b9a10bb9159abb3a5670d22050bd6"
+    },
+    {
+      "scene_id": "0001TP_009150",
+      "split": "test",
+      "sequence": "0001TP",
+      "image_path": "data/camvid/images/0001TP_009150.png",
+      "annotation_path": "data/camvid/labels/0001TP_009150.png",
+      "image_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/test/0001TP_009150.png",
+      "annotation_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/testannot/0001TP_009150.png",
+      "source_split": "test",
+      "positive_class_ids": [
+        5
+      ],
+      "ignore_class_ids": [
+        11
+      ],
+      "annotation_semantics": "CamVid 12-class Tree; not all vegetation species",
+      "image_sha256": "e11de329203802d10a711b678528428aad1930b8adcaa45ffaf78323e626d5a7",
+      "annotation_sha256": "15a76547fa62897c3a54590269e291d1506990b834ffaa126d584b3942e7296c"
+    },
+    {
+      "scene_id": "0001TP_009360",
+      "split": "test",
+      "sequence": "0001TP",
+      "image_path": "data/camvid/images/0001TP_009360.png",
+      "annotation_path": "data/camvid/labels/0001TP_009360.png",
+      "image_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/test/0001TP_009360.png",
+      "annotation_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/testannot/0001TP_009360.png",
+      "source_split": "test",
+      "positive_class_ids": [
+        5
+      ],
+      "ignore_class_ids": [
+        11
+      ],
+      "annotation_semantics": "CamVid 12-class Tree; not all vegetation species",
+      "image_sha256": "eeb207a964103ed2c41784ba0102d181df3c045b8e4ce00791d882b783ebaa3c",
+      "annotation_sha256": "2d46218f8f79e5fca3d71326b6faa320925ec3ec6f4cac491b4c120f51a23699"
+    },
+    {
+      "scene_id": "0001TP_009570",
+      "split": "test",
+      "sequence": "0001TP",
+      "image_path": "data/camvid/images/0001TP_009570.png",
+      "annotation_path": "data/camvid/labels/0001TP_009570.png",
+      "image_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/test/0001TP_009570.png",
+      "annotation_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/testannot/0001TP_009570.png",
+      "source_split": "test",
+      "positive_class_ids": [
+        5
+      ],
+      "ignore_class_ids": [
+        11
+      ],
+      "annotation_semantics": "CamVid 12-class Tree; not all vegetation species",
+      "image_sha256": "1ddfb75acab3f269da84118f4001e5c34530c6f5149c86b88a9c7fd75c66263d",
+      "annotation_sha256": "c0ca2dd60c5369a7c98352334009af6afa746909b3e8230ae7aa43555b991dd1"
+    },
+    {
+      "scene_id": "0001TP_009780",
+      "split": "test",
+      "sequence": "0001TP",
+      "image_path": "data/camvid/images/0001TP_009780.png",
+      "annotation_path": "data/camvid/labels/0001TP_009780.png",
+      "image_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/test/0001TP_009780.png",
+      "annotation_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/testannot/0001TP_009780.png",
+      "source_split": "test",
+      "positive_class_ids": [
+        5
+      ],
+      "ignore_class_ids": [
+        11
+      ],
+      "annotation_semantics": "CamVid 12-class Tree; not all vegetation species",
+      "image_sha256": "42962eb480599c309e2d3c2b9d20d5d9e485f7086300f1c4f514205939f02868",
+      "annotation_sha256": "9ca90f5298d17433f17642d826941f571ece2cbae2179a06e5afc1b375711583"
+    },
+    {
+      "scene_id": "0001TP_009960",
+      "split": "test",
+      "sequence": "0001TP",
+      "image_path": "data/camvid/images/0001TP_009960.png",
+      "annotation_path": "data/camvid/labels/0001TP_009960.png",
+      "image_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/test/0001TP_009960.png",
+      "annotation_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/testannot/0001TP_009960.png",
+      "source_split": "test",
+      "positive_class_ids": [
+        5
+      ],
+      "ignore_class_ids": [
+        11
+      ],
+      "annotation_semantics": "CamVid 12-class Tree; not all vegetation species",
+      "image_sha256": "7e8db792d4e7ed86e073f5c592737037f2c4f06a1caf30d77f8726a8996f6ad1",
+      "annotation_sha256": "4928565be6fa3e31fec0efcff61587e1d22999e7f556f32d313e04be118fe335"
+    },
+    {
+      "scene_id": "0001TP_010170",
+      "split": "test",
+      "sequence": "0001TP",
+      "image_path": "data/camvid/images/0001TP_010170.png",
+      "annotation_path": "data/camvid/labels/0001TP_010170.png",
+      "image_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/test/0001TP_010170.png",
+      "annotation_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/testannot/0001TP_010170.png",
+      "source_split": "test",
+      "positive_class_ids": [
+        5
+      ],
+      "ignore_class_ids": [
+        11
+      ],
+      "annotation_semantics": "CamVid 12-class Tree; not all vegetation species",
+      "image_sha256": "b06481ca757ca629dc612519f2aad4f83eb5b5ca283e9b03f10d04dd9d02382a",
+      "annotation_sha256": "cafb5425cc1f4ca6b3cb4b34527cd832d4cfa57b1842b55075af193da39f52fa"
+    },
+    {
+      "scene_id": "0001TP_010380",
+      "split": "test",
+      "sequence": "0001TP",
+      "image_path": "data/camvid/images/0001TP_010380.png",
+      "annotation_path": "data/camvid/labels/0001TP_010380.png",
+      "image_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/test/0001TP_010380.png",
+      "annotation_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/testannot/0001TP_010380.png",
+      "source_split": "test",
+      "positive_class_ids": [
+        5
+      ],
+      "ignore_class_ids": [
+        11
+      ],
+      "annotation_semantics": "CamVid 12-class Tree; not all vegetation species",
+      "image_sha256": "51303c8d52ddf91914c5d2f90ff0b2d62f0c7af474af12cff615fa0308b84bdd",
+      "annotation_sha256": "06303459d4b61cacaf3751bf3feaf8a27413ed6124f7691405c73f1b47126850"
+    },
+    {
+      "scene_id": "Seq05VD_f00000",
+      "split": "test",
+      "sequence": "Seq05VD",
+      "image_path": "data/camvid/images/Seq05VD_f00000.png",
+      "annotation_path": "data/camvid/labels/Seq05VD_f00000.png",
+      "image_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/test/Seq05VD_f00000.png",
+      "annotation_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/testannot/Seq05VD_f00000.png",
+      "source_split": "test",
+      "positive_class_ids": [
+        5
+      ],
+      "ignore_class_ids": [
+        11
+      ],
+      "annotation_semantics": "CamVid 12-class Tree; not all vegetation species",
+      "image_sha256": "95338274a08548c447f4541bda9f1d389350a5b44bb6484c8efb155fa9f8ec6c",
+      "annotation_sha256": "004ad11c7f1bc88a148082e8866d895a81d8a1e358763210fac9b251610c21b5"
+    },
+    {
+      "scene_id": "Seq05VD_f00570",
+      "split": "test",
+      "sequence": "Seq05VD",
+      "image_path": "data/camvid/images/Seq05VD_f00570.png",
+      "annotation_path": "data/camvid/labels/Seq05VD_f00570.png",
+      "image_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/test/Seq05VD_f00570.png",
+      "annotation_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/testannot/Seq05VD_f00570.png",
+      "source_split": "test",
+      "positive_class_ids": [
+        5
+      ],
+      "ignore_class_ids": [
+        11
+      ],
+      "annotation_semantics": "CamVid 12-class Tree; not all vegetation species",
+      "image_sha256": "580b30c818d6f3d59f54360f56b6380dd94145d0a3495f517aca752875e05f45",
+      "annotation_sha256": "486d015a6fb6e118c83073501b2fad3d5918d341d430e538f585c7d92962a48d"
+    },
+    {
+      "scene_id": "Seq05VD_f01140",
+      "split": "test",
+      "sequence": "Seq05VD",
+      "image_path": "data/camvid/images/Seq05VD_f01140.png",
+      "annotation_path": "data/camvid/labels/Seq05VD_f01140.png",
+      "image_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/test/Seq05VD_f01140.png",
+      "annotation_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/testannot/Seq05VD_f01140.png",
+      "source_split": "test",
+      "positive_class_ids": [
+        5
+      ],
+      "ignore_class_ids": [
+        11
+      ],
+      "annotation_semantics": "CamVid 12-class Tree; not all vegetation species",
+      "image_sha256": "382815835d2a57a6ff75007dc7626c3b4e9f3c45e9a828177cc1f3dfb1870c50",
+      "annotation_sha256": "1d18eaabc4e1f805a29dabe465d4dd0ce3ce164d8cef6e655942f7f16f6db396"
+    },
+    {
+      "scene_id": "Seq05VD_f01710",
+      "split": "test",
+      "sequence": "Seq05VD",
+      "image_path": "data/camvid/images/Seq05VD_f01710.png",
+      "annotation_path": "data/camvid/labels/Seq05VD_f01710.png",
+      "image_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/test/Seq05VD_f01710.png",
+      "annotation_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/testannot/Seq05VD_f01710.png",
+      "source_split": "test",
+      "positive_class_ids": [
+        5
+      ],
+      "ignore_class_ids": [
+        11
+      ],
+      "annotation_semantics": "CamVid 12-class Tree; not all vegetation species",
+      "image_sha256": "ea0f2a354e8161fb4cfa313547eb44a8d52ac7c672205c713e0fbaf3f8f7bf95",
+      "annotation_sha256": "3beca752412b4aae1bcb6caeb99b997b7d627db4a603836d413a1102bfdd6ff5"
+    },
+    {
+      "scene_id": "Seq05VD_f02280",
+      "split": "test",
+      "sequence": "Seq05VD",
+      "image_path": "data/camvid/images/Seq05VD_f02280.png",
+      "annotation_path": "data/camvid/labels/Seq05VD_f02280.png",
+      "image_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/test/Seq05VD_f02280.png",
+      "annotation_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/testannot/Seq05VD_f02280.png",
+      "source_split": "test",
+      "positive_class_ids": [
+        5
+      ],
+      "ignore_class_ids": [
+        11
+      ],
+      "annotation_semantics": "CamVid 12-class Tree; not all vegetation species",
+      "image_sha256": "fc8f7ab997a6df6b93a8c2701ba29356bae1e690233e25364b7ca0171628d6ec",
+      "annotation_sha256": "1102b47b198ca8f99a19b5519699deafdb475cc385b31b1b0238863c0dfd2570"
+    },
+    {
+      "scene_id": "Seq05VD_f02820",
+      "split": "test",
+      "sequence": "Seq05VD",
+      "image_path": "data/camvid/images/Seq05VD_f02820.png",
+      "annotation_path": "data/camvid/labels/Seq05VD_f02820.png",
+      "image_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/test/Seq05VD_f02820.png",
+      "annotation_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/testannot/Seq05VD_f02820.png",
+      "source_split": "test",
+      "positive_class_ids": [
+        5
+      ],
+      "ignore_class_ids": [
+        11
+      ],
+      "annotation_semantics": "CamVid 12-class Tree; not all vegetation species",
+      "image_sha256": "1fef5d5a084adebe4d1133c8f3b213ee2cbe78e432166ede3d955911b6722053",
+      "annotation_sha256": "cff0599f695ffa2b8470fe4f3e4832a9f24411d518bfb991cb165353ea9aa900"
+    },
+    {
+      "scene_id": "Seq05VD_f03390",
+      "split": "test",
+      "sequence": "Seq05VD",
+      "image_path": "data/camvid/images/Seq05VD_f03390.png",
+      "annotation_path": "data/camvid/labels/Seq05VD_f03390.png",
+      "image_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/test/Seq05VD_f03390.png",
+      "annotation_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/testannot/Seq05VD_f03390.png",
+      "source_split": "test",
+      "positive_class_ids": [
+        5
+      ],
+      "ignore_class_ids": [
+        11
+      ],
+      "annotation_semantics": "CamVid 12-class Tree; not all vegetation species",
+      "image_sha256": "76c3ebad07994d16f3886b9519208bc590cb4e9c0c1d9de2a128b696a6bc8876",
+      "annotation_sha256": "7375837feaddfc5034ed445ab1c5dd2b6f728a3593b511f1e3bb5fef7dc19e19"
+    },
+    {
+      "scene_id": "Seq05VD_f03960",
+      "split": "test",
+      "sequence": "Seq05VD",
+      "image_path": "data/camvid/images/Seq05VD_f03960.png",
+      "annotation_path": "data/camvid/labels/Seq05VD_f03960.png",
+      "image_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/test/Seq05VD_f03960.png",
+      "annotation_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/testannot/Seq05VD_f03960.png",
+      "source_split": "test",
+      "positive_class_ids": [
+        5
+      ],
+      "ignore_class_ids": [
+        11
+      ],
+      "annotation_semantics": "CamVid 12-class Tree; not all vegetation species",
+      "image_sha256": "65f3e334e7f723f7d0521fd15e2d27b12e7617a2c27728b99c56e9c4e94b374d",
+      "annotation_sha256": "82db97bded62913d654ae76a804f75baa5eaed00d5cca2fbacf80b93fbffa7b4"
+    },
+    {
+      "scene_id": "Seq05VD_f04530",
+      "split": "test",
+      "sequence": "Seq05VD",
+      "image_path": "data/camvid/images/Seq05VD_f04530.png",
+      "annotation_path": "data/camvid/labels/Seq05VD_f04530.png",
+      "image_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/test/Seq05VD_f04530.png",
+      "annotation_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/testannot/Seq05VD_f04530.png",
+      "source_split": "test",
+      "positive_class_ids": [
+        5
+      ],
+      "ignore_class_ids": [
+        11
+      ],
+      "annotation_semantics": "CamVid 12-class Tree; not all vegetation species",
+      "image_sha256": "cbc5de8b7862c55777cdd64fc3b44281338f1ca437a8380a405986d00e5d9849",
+      "annotation_sha256": "0ecc01b2755da54e2008af35a0fc8eae46ef513165b0632df3ba3a79d388d357"
+    },
+    {
+      "scene_id": "Seq05VD_f05100",
+      "split": "test",
+      "sequence": "Seq05VD",
+      "image_path": "data/camvid/images/Seq05VD_f05100.png",
+      "annotation_path": "data/camvid/labels/Seq05VD_f05100.png",
+      "image_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/test/Seq05VD_f05100.png",
+      "annotation_url": "https://raw.githubusercontent.com/alexgkendall/SegNet-Tutorial/bb68b64e72cb004b3ed927fee0f5624dd8097498/CamVid/testannot/Seq05VD_f05100.png",
+      "source_split": "test",
+      "positive_class_ids": [
+        5
+      ],
+      "ignore_class_ids": [
+        11
+      ],
+      "annotation_semantics": "CamVid 12-class Tree; not all vegetation species",
+      "image_sha256": "dc55e1675862e2a8fbbd8900ebe40c47fe5f4ed07b919694c48dd15d1a1c2078",
+      "annotation_sha256": "5564a3d55aafa2119f7c49384732f396c249cf8fa5379344140c79a8a7612ed7"
+    }
+  ]
+}

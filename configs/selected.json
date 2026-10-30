@@ -1,0 +1,41 @@
+{
+  "preprocess": {
+    "max_side": 960
+  },
+  "geometry": {
+    "method": "orb",
+    "max_features": 3000,
+    "ratio_test": 0.75,
+    "ransac_threshold": 3.0,
+    "min_inliers": 8,
+    "max_canvas_pixels": 12000000,
+    "edge_threshold": 7,
+    "fast_threshold": 7
+  },
+  "segmentation": {
+    "method": "hsv",
+    "h_min": 20,
+    "h_max": 85,
+    "s_min": 20,
+    "v_min": 20
+  },
+  "alternatives": {
+    "hsv": {
+      "method": "hsv",
+      "h_min": 20,
+      "h_max": 85,
+      "s_min": 20,
+      "v_min": 20
+    },
+    "exg": {
+      "method": "exg",
+      "exg_min": 0.02
+    }
+  },
+  "selection": {
+    "criterion": "dev macro IoU",
+    "dev_frames": 20,
+    "test_not_used_for_selection": true,
+    "winner": "hsv"
+  }
+}
