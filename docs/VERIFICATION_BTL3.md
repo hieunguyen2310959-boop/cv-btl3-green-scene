@@ -36,3 +36,11 @@ Các số liệu dưới đây là kết quả thực thi local trên Windows, k
 - Không push upstream BTL1/BTL2, dữ liệu raw, .venv, .env hoặc nguyên đề môn học.
 - `.gitattributes` khóa LF cho JSON để hash cấu hình không bị đổi bởi line-ending của Git trên Windows.
 - Tài liệu này ghi các cổng local đã chạy. Trạng thái remote/GitHub Actions phải đọc trực tiếp trên GitHub sau push; không suy ra CI xanh từ unit test local.
+
+## GitHub read-back và blocker CI
+
+- Repo public: `hieunguyen2310959-boop/cv-btl3-green-scene`, nhánh `main`.
+- Commit triển khai `bd673247d2eacf54b9801f1545609c36c91264ee` đã được đọc lại từ GitHub: toàn bộ **41 blob** khớp cây Git local, gồm PDF; working tree sạch trước commit tài liệu này.
+- Actions run `40980045994` thất bại **trước khi chạy bất kỳ step nào**. Annotation của check-run `123817568923` ghi: `The job was not started because your account is locked due to a billing issue.`
+- Vì vậy **chưa có CI xanh trên GitHub**. Đây là blocker tài khoản được GitHub xác nhận, không phải log test thất bại. Không tự sửa billing, thanh toán, đổi tài khoản hoặc bỏ qua cổng kiểm tra để làm xanh giả.
+- Cổng thay thế đã chạy thật: fresh environment từ staged export, 53 test/110 subtest, download nguồn, CLI positive/negative, full experiments và PDF. Những cổng này không được trình bày là GitHub-hosted CI.
