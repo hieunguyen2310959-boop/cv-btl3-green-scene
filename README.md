@@ -99,6 +99,4 @@ docs/             verification và hướng dẫn bảo vệ
 
 `plan.md`, `VERIFICATION_REPORT.md`, `verify.cmd`, `scripts/verify_sources.py`, `requirements.in`, `requirements.lock.txt` thuộc lượt **kiểm chứng BTL1/BTL2 trước khi làm BTL3**, không phải workflow hiện tại. Không cần clone upstream để chạy BTL3. Các file này được giữ local để đối chiếu, không nằm trong bộ nộp Git mới.
 
-## Thành viên và minh bạch
 
-Nhóm 02: Hứa Thanh Tâm (2313026), Hoàng Ngô Thiên Phúc (2212612), Nguyễn Minh Hiếu (2310959), Nguyễn Thị Kim Thanh (2433204). Bảng bàn giao trong báo cáo là **phân công đề xuất để nhóm review/xác nhận**, không phải khẳng định mỗi người đã viết code. Code và tài liệu có AI hỗ trợ; nhóm cần tự chạy lại, hiểu thuật toán, xác nhận đóng góp thực tế và kiểm tra quy định AI của môn học trước khi nộp.
