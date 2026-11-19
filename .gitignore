@@ -14,3 +14,6 @@ data/raw/
 data/downloads/
 data/camvid/
 docs/sources/
+reports/figures/
+reports/results/development_trials.json
+reports/results/segmentation_per_scene.json
